@@ -30,6 +30,10 @@ header > nav > div > div{
   justify-items: center;
 }
 
+header > nav > div > div > a{
+  width: 50%;
+}
+
 header > nav > div > div > img{
   width: 50%;
 }
@@ -50,6 +54,11 @@ header > nav > div > div > img{
   grid-template-columns: 100%;
   align-items: center;
   justify-items: center;
+}
+
+.ligaInstagram{
+  display: inline-block;
+  width: 100%;
 }
 
 .logoInstagram {
