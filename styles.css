@@ -70,10 +70,11 @@ header > nav > div > div > img{
 .divHeaderItemButton > button{
   width: 50%;
   height: 50%;
-  background-color: #e6e6e6;
-  color: black;
+  background-color: #3a46fb;
+  color: #e6e6e6;
   border: none;
   cursor: pointer;
+  font-size: 1.5vw;
 }
 
 main{
@@ -86,7 +87,6 @@ main{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  position: relative;
 }
 
 .mainDivSloganTexto{
@@ -168,4 +168,43 @@ main{
   font-size: 2vw;
   color: #000000;
   margin-top: 1.5vw;
+}
+
+.mainDivPodcastIt{
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+  background-color: #000000;
+  height: 10vw;
+  align-items: center;
+  justify-items: center;
+}
+
+.mainDivPodcastIt > div > h1{
+  color: #d7fb34;
+  font-size: 5vw;
+  padding-left: -5vw;
+}
+
+.mainDivPodcastIt > div > img{
+  width: 15vw;
+}
+
+.mainDivPodcastItPaquetes{
+  height: 20vw;
+  color:#d7fb34;
+  background-color: #000000;
+}
+
+.mainDivPodcastItPaquetesBasico{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-bottom: 1vw
+}
+
+.mainDivPodcastItPaquetesBasico > div {
+  display: flex;
+}
+
+.imagenPodcastItBasic > img{
+  width: 30vw;
 }
