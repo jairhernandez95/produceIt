@@ -1,0 +1,171 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* main */
+
+header{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 100%;
+  background-color: transparent;
+  position: sticky;
+  top: 0;
+}
+
+header > nav {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 20% 40% 20% 20%;
+  background-color: #000000;
+}
+
+header > nav > div > div{
+  display: grid;
+  grid-template-columns: 100%;
+  align-items: center;
+  justify-items: center;
+}
+
+header > nav > div > div > img{
+  width: 50%;
+}
+
+.divHeaderItem{
+  display: grid;
+}
+
+.divHeaderItemLogos{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  justify-items: center;
+}
+
+.divHeaderItemLogosInstagram{
+  display: grid;
+  grid-template-columns: 100%;
+  align-items: center;
+  justify-items: center;
+}
+
+.logoInstagram {
+  width: 30%;
+}
+
+.divHeaderItemLogosFacebook{
+  display: grid;
+  grid-template-columns: 100%;
+  align-items: center;
+  justify-items: center;
+}
+
+.logoFacebook {
+  width: 30%;
+}
+
+.divHeaderItemButton > button{
+  width: 50%;
+  height: 50%;
+  background-color: #e6e6e6;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+
+main{
+  width: 100%;
+}
+
+.mainDivSloganYHeader{
+  background-image: url(./assets/background/backgroundPattern.png);
+  height: 45vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.mainDivSloganTexto{
+  padding: 16vw;
+  display: grid;
+  grid-template-columns: 100%;
+  align-items: center;
+  justify-items: center;
+}
+
+.mainDivSloganTexto > h1{
+  font-size: 5vw;
+  background-color: #3a46fb;
+  color: #e6e6e6;
+}
+
+.mainDivServiciosTexto{
+  display: grid;
+  grid-template-columns: 100%;
+  justify-items: center;
+  background-color: #e6e6e6;
+  color: #000000;
+  padding-top: 2vw;
+  font-size: 2vw;
+}
+
+.mainDivServiciosListados{
+  display: grid;
+  grid-template-columns: 5% 30% 30% 30% 5%;
+  justify-items: center;
+  align-items: center;
+  height: 24vw;
+  background-color: #e6e6e6;
+}
+
+.imagenPodcast{
+  display: grid;
+  justify-items: center;
+  padding-top: 1vw;
+}
+
+.imagenPodcast > img{
+  width: 29vw;
+}
+
+.imagenPodcast > h1{
+  font-size: 2vw;
+  color: #000000;
+  margin-top: 1.5vw;
+}
+
+.imagenFakeWebinar{
+  padding-top: 1vw;
+  display: grid;
+  justify-items: center;
+}
+
+.imagenFakeWebinar > img{
+  width: 29vw;
+}
+
+.imagenFakeWebinar > h1{
+  font-size: 2vw;
+  color: #000000;
+  margin-top: 1.5vw;
+}
+
+.imagenEvents{
+  padding-top: 1vw;
+  display: grid;
+  justify-items: center;
+}
+
+.imagenEvents > img{
+  width: 29vw;
+}
+
+.imagenEvents > h1{
+  font-size: 2vw;
+  color: #000000;
+  margin-top: 1.5vw;
+}
